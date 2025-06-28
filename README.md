@@ -188,7 +188,7 @@
 </head>
 <body>
     <div class="hero">
-        <h1 class="title">江大美女!</h1>
+        <h1 class="title">朗大帅比!</h1>
         <div class="balloons"></div>
     </div>
 
@@ -257,7 +257,7 @@
             
             const endText = document.createElement('div');
             endText.className = 'countdown-end';
-            endText.textContent = '生日快乐！🎉';
+            endText.textContent = '凡人勿扰';
             document.body.appendChild(endText);
 
             createConfetti(50);
@@ -317,7 +317,7 @@
             gift.style.transform = 'rotate(360deg) scale(0)';
             
             const message = document.createElement('div');
-            message.textContent = '江大美女,天天开心!';
+            message.textContent = '蠢货，还是打开了吗!';
             message.style.position = 'fixed';
             message.style.top = '50%';
             message.style.left = '50%';
